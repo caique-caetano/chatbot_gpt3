@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const response = await fetch("hhttps://chatbot-gpt3-1bca.onrender.com", {
+  const response = await fetch("https://chatbot-gpt3-1bca.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
